@@ -1,6 +1,5 @@
 # Certified Tech Dev - Proyecto Integrador
 ## <img src="https://media.giphy.com/media/WO5Wpjsmvux02BGTlt/giphy.gif" width="25"> Navegación en la página
-Link de la página web: [Digital Booking](http://ec2-15-228-221-166.sa-east-1.compute.amazonaws.com)
 
 Al navegar a través de la página se tuvo en cuenta cierto criterio para la lógica de negocios:
 * El user rol ADMIN no tiene habilitado poder realizar reservas, deberá tener una cuenta convencional con rol USER.
@@ -41,10 +40,6 @@ Se trabajo con Spring Framework moderando el proyecto a través de Spring Boot. 
 Desde el área de Base de datos se especifican los siguientes requerimientos de software: 
 * MySQL
 * IDEs: MySQL Workbench
-
-Estructura y diagramas:
-
-![image](uploads/d2309ada879e09dfc260bf2a17219413/image.png)
 
 Algunas consideraciones:
 
