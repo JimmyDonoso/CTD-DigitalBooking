@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&family=Roboto:wght@500;700&display=swap');
+
+.product {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffff;
+    background-color: #607D8B;
+    padding: 1% 2%;
+}
+
+.faChevronLeft {
+    font-size: 30px;
+    color: white;
+}
+
+.faChevronLeft :hover {
+    color: #FBC02D;
+}
+
+.mainContainer {
+
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25), 1px -2px 4px rgba(0, 0, 0, 0.25);
+    padding: 15px;
+    margin-top: 4%;
+    margin-bottom: 8%;
+}
+
+.bookingTable {
+    width: 100%;
+    /* border-collapse: collapse; */
+    text-align: left;
+}
+
+.bookingTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+}
+
+.bookingTable td,
+th {
+    padding: 8px;
+
+}
+
+.bookingTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.bookingTable tr:hover {
+    background-color: #ddd;
+}
+
+.bookingTable th {
+    background-color: #e0e0e0;
+}
+
+.bookingRow {
+    padding: 5px;
+    border-bottom: 1px solid #FBC02D;
+}
+
+.reservaExitosa {
+    position: relative;
+    margin: auto;
+    margin-top: 153px;
+    width: 638px;
+    text-align: center;
+}
+
+.cajaMensaje {
+    width: 638px;
+    height: 302px;
+    border: 1px solid #DFE4EA;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.cajaMensaje .check {
+    margin-top: 34px;
+    width: 7%;
+}
+
+.cajaMensaje h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 28px;
+    color: #FBC02D;
+    margin-top: 24px;
+}
+
+.cajaMensaje p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #383B58;
+    margin-top: 25px;
+}
+
+.cajaMensaje .BotonOk {
+    color: #FFFFFF;
+    width: 206px;
+    height: 40px;
+    background: #FBC02D;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    margin-top: 37px;
+    cursor: pointer;
+    border: none;
+}
+
+.BotonOk:hover {
+    box-shadow: 2px 4x 4px rgba(0, 0, 0, 0.32);
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+    padding: 0 1%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 480px) {
+    .reservaExitosa {
+        width: 357px;
+
+    }
+
+    .cajaMensaje {
+        width: 357px;
+    }
+
+    .cajaMensaje p {
+        font-size: 16px;
+    }
+
+}

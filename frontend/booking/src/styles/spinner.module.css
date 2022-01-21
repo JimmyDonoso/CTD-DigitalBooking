@@ -1,0 +1,29 @@
+.spinner {
+    width: 64px;
+    height: 64px;
+    position: fixed;
+    top: calc(50% - 32px);
+    left: calc(50% - 32px);
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.spinner {
+    background-color: transparent;
+    border-top: 10px solid #FBC02D;
+    border-right: 10px solid #fbc12dc5;
+    border-bottom: 10px solid #fbc12dab;
+    border-left: 10px solid #80808088;
+    -webkit-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

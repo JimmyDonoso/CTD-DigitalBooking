@@ -1,0 +1,695 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&family=Roboto:wght@500;700&display=swap');
+
+.product {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffff;
+    background-color: #607D8B;
+    padding: 1% 2%;
+}
+
+.faChevronLeft{
+  font-size: 30px;
+  color: white;
+}
+
+.faChevronLeft :hover{
+  color: #FBC02D;
+}
+
+.category{
+  font-family: "Quicksand";
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.product h1{
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+.booking {
+  background-color: #e7e7e7;
+  display: flex;
+  margin: auto;
+}
+
+.mainContainer {
+  width: 95%;
+  margin-left: 7%;
+}
+
+.secondaryContainer {
+  width: 60%;
+  margin-left: 3%;
+}
+
+.formContainer {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 99%;
+  display: flex;
+  /* height: 27vh; */
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.rowContainer {
+  width: 100%;
+  margin: 5px;
+  padding: 5px;
+}
+
+.inputContainer {
+  margin: 2%;
+}
+
+.formLabel {
+  font-size: 16px;
+}
+
+.formInput {
+  width: 100%;
+  font-size: 16px;
+  padding: 10px;
+  box-shadow: 0.5px 0.5px 3px 0.5px rgba(0, 0, 0, 0.2);
+  color: #808080;
+  border-style: none;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+.containerTitle {
+  padding: 35px 0px 20px 0px;
+}
+
+.arrivalTime {
+  padding-bottom: 30px;
+}
+
+.containerCheckIn {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  /* height: 18vh; */
+}
+
+.containerCheckIn h3 {
+  padding: 20px 0px 0px 25px;
+  font-weight: normal;
+}
+
+.containerCheckIn p {
+  padding: 7px 0px 12px 25px;
+  font-weight: normal;
+}
+
+.containerCheckIn select {
+  padding: 10px 0px 10px 10px;
+  font-weight: normal;
+  margin-left: 25px;
+  width: 45%;
+  border-radius: 5px;
+  border-style: none;
+  box-shadow: 1px 1px 5px 1px rgb(0 0 0 / 25%);
+  margin-bottom: 2%;
+}
+
+.detailContainer{
+  background-color: #ffff;
+  text-align: left;
+  width: 75%;
+  /* height: 105vh; */
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  border-radius: 10px;
+  margin-top: 90px;
+  margin-bottom: 50px;
+  min-height: 90vh;
+}
+
+.detailContainer h2 {
+  padding: 30px;
+}
+
+.detailContainer img {
+  width: 100%;
+  border-radius: 0;
+}
+
+.detailContainer p {
+  text-align: left;
+  padding: 10px 10px 10px 30px;
+  font-size: 1rem;
+}
+
+.detailContainer hr {
+  margin: auto;
+  width: 90%;
+  border: 1px solid #d4d4d4;
+}
+
+.areaTitle {
+  padding-top: 20px;
+  padding-left: 25px;
+}
+
+.areaTitle h3 {
+  font-size: 1.7rem;
+}
+
+.areaTitle div {
+  color: #FBC02D;
+}
+
+.checks {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px;
+  font-size: 1.1rem;
+}
+
+.buttonContainer{
+  display: flex;
+  justify-content: center;
+  margin: 10px 0px;
+}
+
+.confirmBookingBtn{
+  width: 90%;
+  height: 55px;
+  color: #ffff;
+  font-size: 16px;
+  background: #FBC02D;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+  margin: 15px 15px 15px 25px;
+}
+
+.confirmBookingBtn:hover {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.28);
+}
+
+.faChevronLeft{
+  font-size: 30px;
+  color: white;
+}
+
+.faChevronLeft :hover{
+  color: #FBC02D;
+}
+
+.errorMessage {
+  color: #ff0000;
+  font-size: 12px;
+  text-align: start;
+}
+
+/* ----------------------------------------------------- */
+/* ----------------------------------------------------- */
+/* ESTILOS PRE-EXISTENTES EN ARCHIVO producto.module.css */
+/* ----------------------------------------------------- */
+/* ----------------------------------------------------- */
+
+.Categoria{
+    font-family: "Quicksand";
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.Producto h1{
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.Ubicacion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    color: #383B58;
+    padding: 1% 2%;
+}
+
+.Location{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.Puntuacion{
+    display: flex;
+    flex-direction: row;
+}
+
+.Puntaje{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    /* height: 6vh; */
+    background-color: #FBC02D;
+    margin: 0px 10px;
+    border-radius: 23%;
+    color: white;
+    font-size: 22px;
+}
+
+.icons {
+    display: flex;
+    gap: 25px;
+    font-size: 25px;
+    padding: 1% 2%;
+    color: #607D8B;
+}
+
+.Text{
+    color: #383B58;
+    padding: 0 2%;
+    width: 100%;
+}
+
+.Text h2{
+    font-size: 24px;
+    font-weight: 700;
+    padding: 1.5%;
+    padding-left: 5%;
+}
+
+.Text p{
+    padding: 1%;
+}
+
+.Text hr{
+    border: 0.5px solid #FBC02D;
+}
+
+.FechasBloque{
+    display: flex;
+    flex: row;
+    justify-content: space-around;
+}
+
+.Calendar{
+  width: 100%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.Info{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 5%;
+    padding-left: 5%;
+}
+
+.cajaInfo{
+  padding-top: 2%;
+  width: 30vw;
+}
+
+.cajaInfo h3 {
+  font-size: 1.3rem;
+}
+
+.Info li{
+  padding: 8px 0px;
+  font-size: 0.9rem;
+}
+
+
+/*RESPONSIVE TABLET*/
+@media screen and (min-width:640px) and (max-width: 1023px){
+
+  .booking {
+    flex-direction: column;
+  }
+
+  .formContainer {
+    width: 90%;
+  }
+
+  .containerCheckIn {
+    width: 90%;
+    height: 21vh;
+  }
+
+  .containerCheckIn h3 {
+    font-size: 1rem;
+  }
+  
+  .containerCheckIn p {
+    font-size: 0.9rem;
+  }
+
+  .secondaryContainer {
+    width: 85.5%;
+    margin-left: 7%;
+    margin-bottom: 5%;
+  }
+
+  .detailContainer {
+    width: 100%;
+    margin: auto;
+    height: 45vh;
+    min-height: 0;
+  }
+  
+  .detailContainer h2 {
+    padding: 10px 0px 5px 25px;
+    padding-left: 25px;
+  }
+  
+  .imgContainer {
+    padding: 10px 0px 5px 25px;
+    display: flex;
+  }
+
+  .detailContainer img {
+    /* width: 50%;
+    height: 35vh;
+    border-radius: 10px; */
+    min-width: 250px;
+    min-height:330px;
+    max-width: 318px;
+    max-height: 350px;
+    /* width: 50%;
+    height: 35vh; */
+    object-fit: cover;
+    border-radius: 10px;
+
+  }
+  
+  .detailContainer p {
+    text-align: left;
+    padding: 10px 15px 10px 25px;
+    font-size: 0.8rem;
+  }
+  
+  .detailContainer hr {
+    margin: auto;
+    width: 87%;
+    border: 1px solid #d4d4d4;
+  }
+
+  .areaTitle {
+    padding-top: 0px;
+    padding-left: 20px;
+  }
+  
+  .areaTitle span {
+    padding-bottom: 0px;
+  }
+
+  .areaTitle h3 {
+    padding-top: 0px;
+    font-size: 1.3rem;
+  }
+  
+  .checks {
+    display: flex;
+    width: 89%;
+    justify-content: space-between;
+    padding: 20px 0px 10px 30px;
+    font-size: 0.9rem;
+  }
+  
+  .confirmBookingBtn{
+    width: 32%;
+    height: 40px;
+    font-size: 1rem;
+    margin-left: 4%;
+    position: absolute;
+    bottom: 19.75%;
+  }
+
+
+
+  /* ----------------------------------------------------- */
+  /* ----------------------------------------------------- */
+  /* ESTILOS PRE-EXISTENTES EN ARCHIVO producto.module.css */
+  /* ----------------------------------------------------- */
+  /* ----------------------------------------------------- */
+
+  .Search {
+    min-width: 120px;
+    max-height: 150px;
+  }
+  .Search h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .Search h3 {
+    font-size: 15px;
+    margin-bottom: 15px;
+    line-height: 15px;
+    font-weight: lighter;
+  }
+
+  .inputSearch {
+    width: 90%;
+ 
+  }
+  .ButtonSearch{
+    width: 20%;
+    
+  }
+
+.Images{
+  display: none;
+}
+
+.FechasBloque{
+    display: flex;
+    flex-direction: column;
+}
+
+.Calendar{
+  width: 100%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Reserva{
+  width: 550px;
+  margin: 1% 10%;
+  height: 70px;
+}
+
+.Reserva div{
+    display: flex;
+    flex-direction: row;
+   
+    text-align: center;
+    height: 120px;
+    width: 100%;
+    border: none;
+    font-weight: 700;
+}
+
+.Reserva{
+  margin-top: 10px;
+  margin-bottom: 0;
+  visibility: hidden; 
+}
+
+.Reserva p {
+  text-align: left;
+  visibility: visible;
+}
+
+.BotonReserva{
+  background-color: #FBC02D;
+  width: 350px;
+  visibility: visible;
+  margin-top: 0;
+}
+
+
+} 
+
+/*RESPONSIVE MOBILE*/
+@media screen and (max-width: 639px)  {
+
+  .booking {
+    flex-direction: column;
+  }
+
+  .formContainer {
+    width: 90%;
+    flex-direction: column;
+  }
+
+  .rowContainer {
+    padding-bottom: 0px;
+    margin-bottom: -5px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+  }
+
+  .inputContainer {
+    margin: 10px 15px;
+  }
+
+  .containerCheckIn {
+    width: 90%;
+  }
+
+  .containerCheckIn h3 {
+    font-size: 1rem;
+  }
+  
+  .containerCheckIn p {
+    font-size: 0.8rem;
+  }
+
+  .containerCheckIn select {
+    width: 87%;
+    margin-bottom: 15px;
+  }
+
+  .containerTitle {
+    padding: 25px 0px 20px 0px;
+  }
+
+  .secondaryContainer {
+    width: 85.5%;
+    margin-left: 7%;
+    margin-bottom: 5%;
+    display: flex;
+  }
+
+  .detailContainer {
+    width: 100%;
+    margin: auto;
+    min-height: 0;
+  }
+  
+  .secondaryContainer h2 {
+    padding: 10px 10px 15px 15px;
+  }
+  
+  .detailContainer p {
+    text-align: left;
+    padding: 10px 10px 10px 20px;
+    font-size: 1rem;
+  }
+
+  .areaTitle {
+    padding-top: 0px;
+    padding-left: 20px;
+  }
+  
+  .checks {
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    padding: 20px 10px 20px 30px;
+    font-size: 1rem;
+  }
+
+  .confirmBookingBtn{
+
+    margin: 15px 15px 15px 18px;
+  }
+
+
+  /* ----------------------------------------------------- */
+  /* ----------------------------------------------------- */
+  /* ESTILOS PRE-EXISTENTES EN ARCHIVO producto.module.css */
+  /* ----------------------------------------------------- */
+  /* ----------------------------------------------------- */
+
+  .Search {
+    height: 240px;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .Images{
+    display: none;
+  }
+
+  .cerrar {
+    font-size: 20px;
+    color: #FBC02D;
+    right: 1%;
+    top: 10%;
+    margin: 150px 30px;
+  }
+
+  .Search h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+ 
+  }
+
+  .Search h3 {
+    display: none;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 1px; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  } 
+
+  .inputSearch {
+    width: 254px;
+    margin-bottom: 5%;
+  }
+
+  .ButtonSearch{
+    width: 254px;
+    margin-top: 3%;
+    margin-left: 0px;
+  }
+
+/*   .CalendarioDesktop {
+    display: none;
+  } */
+
+  .CalendarioResponsive{
+    display: contents;
+  }
+
+  .FechasBloque{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ .Reserva{
+   margin-top: 1px;
+   margin-bottom: 10px;
+   visibility: hidden; 
+   width: 100%;
+   /* height: 100px; */
+ }
+ .Reserva p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  visibility: visible;
+}
+
+.Reserva .BotonReserva {
+  margin-top: 1px;
+  margin-bottom: 10px;
+  visibility: visible;
+}
+  
+
+} 

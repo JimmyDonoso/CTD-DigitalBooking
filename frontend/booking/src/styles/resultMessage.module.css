@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
+.successful {
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	height: 80vh;
+	text-align: center;
+	align-items: center;
+}
+
+.messageBox {
+	width: 45vw;
+	height: 302px;
+	border: 1px solid #DFE4EA;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+
+.messageBox .check {
+	margin-top: 34px;
+}
+
+
+.messageBox h2 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px; 
+	line-height: 28px;
+	color: #FBC02D;
+	margin-top: 24px;
+}
+
+
+.messageBox p {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 23px;
+	color: #383B58;
+	margin-top: 3px;
+}
+
+
+.BotonOk {
+	color: #FFFFFF;
+	width: 206px; 
+	height: 40px;
+	background: #FBC02D;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.12);
+	border-radius: 5px;
+	margin-top: 27px;
+	cursor: pointer;
+	border: none;
+}
+
+@media screen and (max-width: 480px) {
+	.successful {
+		width: 357px;
+
+	}
+
+	.messageBox {
+		width: 357px;
+	}
+
+	.messageBox p {
+	font-size: 16px;	
+	}
+
+}

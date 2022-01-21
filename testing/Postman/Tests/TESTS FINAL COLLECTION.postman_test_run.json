@@ -1,0 +1,1328 @@
+{
+	"id": "32b849c2-bbbd-410b-8f1f-5b8045276833",
+	"name": "TESTS FINAL COLLECTION",
+	"timestamp": "2021-12-09T23:52:20.911Z",
+	"collection_id": "13893503-269dcc2d-d249-4375-bd8d-50e0a8768931",
+	"folder_id": 0,
+	"environment_id": "ddf7bd45-3b80-4be7-b224-02893b6a757b",
+	"totalPass": 421,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "47550e30-2025-4710-93b9-077057ec5dfc",
+			"name": "listarAll Copy",
+			"url": "http://localhost:8080/cities",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Get all cities": true,
+				"Get id from object 1": true,
+				"Get city from object 1": true,
+				"Get country from object 1": true,
+				"Get id from object 2": true,
+				"Get city from object 2": true,
+				"Get country from object 2": true,
+				"Get id from object 3": true,
+				"Get city from object 3": true,
+				"Get country from object 3": true,
+				"Get id from object 4": true,
+				"Get city from object 4": true,
+				"Get country from object 4": true,
+				"Get id from object 5": true,
+				"Get city from object 5": true,
+				"Get country from object 5": true,
+				"Get id from object 6": true,
+				"Get city from object 6": true,
+				"Get country from object 6": true,
+				"Get id from object 7": true,
+				"Get city from object 7": true,
+				"Get country from object 7": true,
+				"Get id from object 8": true,
+				"Get city from object 8": true,
+				"Get country from object 8": true,
+				"Get id from object 9": true,
+				"Get city from object 9": true,
+				"Get country from object 9": true,
+				"Get id from object 10": true,
+				"Get city from object 10": true,
+				"Get country from object 10": true,
+				"Get id from object 11": true,
+				"Get city from object 11": true,
+				"Get country from object 11": true,
+				"Get id from object 12": true,
+				"Get city from object 12": true,
+				"Get country from object 12": true,
+				"Get id from object 13": true,
+				"Get city from object 13": true,
+				"Get country from object 13": true,
+				"Get id from object 14": true,
+				"Get city from object 14": true,
+				"Get country from object 14": true,
+				"Get id from object 15": true,
+				"Get city from object 15": true,
+				"Get country from object 15": true,
+				"Get id from object 16": true,
+				"Get city from object 16": true,
+				"Get country from object 16": true,
+				"Get id from object 17": true,
+				"Get city from object 17": true,
+				"Get country from object 17": true,
+				"Get id from object 18": true,
+				"Get city from object 18": true,
+				"Get country from object 18": true,
+				"Get id from object 19": true,
+				"Get city from object 19": true,
+				"Get country from object 19": true,
+				"Get id from object 20": true,
+				"Get city from object 20": true,
+				"Get country from object 20": true,
+				"Get id from object 21": true,
+				"Get city from object 21": true,
+				"Get country from object 21": true,
+				"Get id from object 22": true,
+				"Get city from object 22": true,
+				"Get country from object 22": true,
+				"Get id from object 23": true,
+				"Get city from object 23": true,
+				"Get country from object 23": true,
+				"Get id from object 24": true,
+				"Get city from object 24": true,
+				"Get country from object 24": true,
+				"Get id from object 25": true,
+				"Get city from object 25": true,
+				"Get country from object 25": true,
+				"Get id from object 26": true,
+				"Get city from object 26": true,
+				"Get country from object 26": true,
+				"Get id from object 27": true,
+				"Get city from object 27": true,
+				"Get country from object 27": true,
+				"Get id from object 28": true,
+				"Get city from object 28": true,
+				"Get country from object 28": true,
+				"Get id from object 29": true,
+				"Get city from object 29": true,
+				"Get country from object 29": true,
+				"Get id from object 30": true,
+				"Get city from object 30": true,
+				"Get country from object 30": true,
+				"Get id from object 31": true,
+				"Get city from object 31": true,
+				"Get country from object 31": true,
+				"Get id from object 32": true,
+				"Get city from object 32": true,
+				"Get country from object 32": true,
+				"Get id from object 33": true,
+				"Get city from object 33": true,
+				"Get country from object 33": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get all cities": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get id from object 1": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get city from object 1": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get country from object 1": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get id from object 2": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get city from object 2": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get country from object 2": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get id from object 3": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get city from object 3": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get country from object 3": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get id from object 4": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get city from object 4": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get country from object 4": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get id from object 5": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get city from object 5": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get country from object 5": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get id from object 6": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get city from object 6": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get country from object 6": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get id from object 7": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get city from object 7": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get country from object 7": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get id from object 8": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get city from object 8": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get country from object 8": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get id from object 9": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get city from object 9": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get country from object 9": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get id from object 10": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get city from object 10": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get country from object 10": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get id from object 11": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get city from object 11": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get country from object 11": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get id from object 12": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get city from object 12": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get country from object 12": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get id from object 13": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get city from object 13": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get country from object 13": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get id from object 14": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get city from object 14": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get country from object 14": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get id from object 15": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get city from object 15": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get country from object 15": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get id from object 16": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get city from object 16": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get country from object 16": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get id from object 17": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get city from object 17": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get country from object 17": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get id from object 18": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get city from object 18": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get country from object 18": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get id from object 19": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get city from object 19": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get country from object 19": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get id from object 20": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get city from object 20": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get country from object 20": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get id from object 21": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get city from object 21": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get country from object 21": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get id from object 22": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get city from object 22": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get country from object 22": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get id from object 23": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get city from object 23": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get country from object 23": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get id from object 24": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get city from object 24": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get country from object 24": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get id from object 25": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get city from object 25": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get country from object 25": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get id from object 26": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get city from object 26": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get country from object 26": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get id from object 27": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get city from object 27": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get country from object 27": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get id from object 28": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get city from object 28": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get country from object 28": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get id from object 29": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get city from object 29": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get country from object 29": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get id from object 30": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get city from object 30": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get country from object 30": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get id from object 31": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get city from object 31": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get country from object 31": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get id from object 32": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get city from object 32": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get country from object 32": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get id from object 33": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get city from object 33": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get country from object 33": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Get all cities": true,
+					"Get id from object 1": true,
+					"Get city from object 1": true,
+					"Get country from object 1": true,
+					"Get id from object 2": true,
+					"Get city from object 2": true,
+					"Get country from object 2": true,
+					"Get id from object 3": true,
+					"Get city from object 3": true,
+					"Get country from object 3": true,
+					"Get id from object 4": true,
+					"Get city from object 4": true,
+					"Get country from object 4": true,
+					"Get id from object 5": true,
+					"Get city from object 5": true,
+					"Get country from object 5": true,
+					"Get id from object 6": true,
+					"Get city from object 6": true,
+					"Get country from object 6": true,
+					"Get id from object 7": true,
+					"Get city from object 7": true,
+					"Get country from object 7": true,
+					"Get id from object 8": true,
+					"Get city from object 8": true,
+					"Get country from object 8": true,
+					"Get id from object 9": true,
+					"Get city from object 9": true,
+					"Get country from object 9": true,
+					"Get id from object 10": true,
+					"Get city from object 10": true,
+					"Get country from object 10": true,
+					"Get id from object 11": true,
+					"Get city from object 11": true,
+					"Get country from object 11": true,
+					"Get id from object 12": true,
+					"Get city from object 12": true,
+					"Get country from object 12": true,
+					"Get id from object 13": true,
+					"Get city from object 13": true,
+					"Get country from object 13": true,
+					"Get id from object 14": true,
+					"Get city from object 14": true,
+					"Get country from object 14": true,
+					"Get id from object 15": true,
+					"Get city from object 15": true,
+					"Get country from object 15": true,
+					"Get id from object 16": true,
+					"Get city from object 16": true,
+					"Get country from object 16": true,
+					"Get id from object 17": true,
+					"Get city from object 17": true,
+					"Get country from object 17": true,
+					"Get id from object 18": true,
+					"Get city from object 18": true,
+					"Get country from object 18": true,
+					"Get id from object 19": true,
+					"Get city from object 19": true,
+					"Get country from object 19": true,
+					"Get id from object 20": true,
+					"Get city from object 20": true,
+					"Get country from object 20": true,
+					"Get id from object 21": true,
+					"Get city from object 21": true,
+					"Get country from object 21": true,
+					"Get id from object 22": true,
+					"Get city from object 22": true,
+					"Get country from object 22": true,
+					"Get id from object 23": true,
+					"Get city from object 23": true,
+					"Get country from object 23": true,
+					"Get id from object 24": true,
+					"Get city from object 24": true,
+					"Get country from object 24": true,
+					"Get id from object 25": true,
+					"Get city from object 25": true,
+					"Get country from object 25": true,
+					"Get id from object 26": true,
+					"Get city from object 26": true,
+					"Get country from object 26": true,
+					"Get id from object 27": true,
+					"Get city from object 27": true,
+					"Get country from object 27": true,
+					"Get id from object 28": true,
+					"Get city from object 28": true,
+					"Get country from object 28": true,
+					"Get id from object 29": true,
+					"Get city from object 29": true,
+					"Get country from object 29": true,
+					"Get id from object 30": true,
+					"Get city from object 30": true,
+					"Get country from object 30": true,
+					"Get id from object 31": true,
+					"Get city from object 31": true,
+					"Get country from object 31": true,
+					"Get id from object 32": true,
+					"Get city from object 32": true,
+					"Get country from object 32": true,
+					"Get id from object 33": true,
+					"Get city from object 33": true,
+					"Get country from object 33": true
+				}
+			]
+		},
+		{
+			"id": "3272e91d-3c0c-4f62-89e6-aac0c5220d78",
+			"name": "add Copy",
+			"url": "http://localhost:8080/cities/add",
+			"time": 13,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Ciudad agregada correctamente": true
+			},
+			"testPassFailCounts": {
+				"Ciudad agregada correctamente": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				13
+			],
+			"allTests": [
+				{
+					"Ciudad agregada correctamente": true
+				}
+			]
+		},
+		{
+			"id": "d7f45439-dcdf-4ecd-b8d3-3650b2e67bd8",
+			"name": "add",
+			"url": "http://localhost:8080/categories/add",
+			"time": 13,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Agregar categoría": true
+			},
+			"testPassFailCounts": {
+				"Agregar categoría": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				13
+			],
+			"allTests": [
+				{
+					"Agregar categoría": true
+				}
+			]
+		},
+		{
+			"id": "69326a92-be5a-4c6d-bf4f-d50c011fc1ef",
+			"name": "update",
+			"url": "http://localhost:8080/categories/update",
+			"time": 11,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Update category": true
+			},
+			"testPassFailCounts": {
+				"Update category": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				11
+			],
+			"allTests": [
+				{
+					"Update category": true
+				}
+			]
+		},
+		{
+			"id": "f9d150d8-6af4-453f-8f34-4e303d990e08",
+			"name": "listarModificado",
+			"url": "http://localhost:8080/categories",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Get all categories": true,
+				"Get id from object 1": true,
+				"Get title from object 1": true,
+				"Get description from object 1": true,
+				"Get urlImage from object 1": true,
+				"Get id from object 2": true,
+				"Get title from object 2": true,
+				"Get description from object 2": true,
+				"Get urlImage from object 2": true,
+				"Get id from object 3": true,
+				"Get title from object 3": true,
+				"Get description from object 3": true,
+				"Get urlImage from object 3": true,
+				"Get id from object 4": true,
+				"Get title from object 4": true,
+				"Get description from object 4": true,
+				"Get urlImage from object 4": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get all categories": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get id from object 1": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get title from object 1": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get description from object 1": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get urlImage from object 1": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get id from object 2": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get title from object 2": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get description from object 2": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get urlImage from object 2": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get id from object 3": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get title from object 3": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get description from object 3": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get urlImage from object 3": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get id from object 4": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get title from object 4": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get description from object 4": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get urlImage from object 4": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Get all categories": true,
+					"Get id from object 1": true,
+					"Get title from object 1": true,
+					"Get description from object 1": true,
+					"Get urlImage from object 1": true,
+					"Get id from object 2": true,
+					"Get title from object 2": true,
+					"Get description from object 2": true,
+					"Get urlImage from object 2": true,
+					"Get id from object 3": true,
+					"Get title from object 3": true,
+					"Get description from object 3": true,
+					"Get urlImage from object 3": true,
+					"Get id from object 4": true,
+					"Get title from object 4": true,
+					"Get description from object 4": true,
+					"Get urlImage from object 4": true
+				}
+			]
+		},
+		{
+			"id": "7921bec4-dfee-4ba8-b337-d4f5029fd10f",
+			"name": "delete",
+			"url": "http://localhost:8080/categories/delete/34",
+			"time": 11,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Delete category": true
+			},
+			"testPassFailCounts": {
+				"Delete category": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				11
+			],
+			"allTests": [
+				{
+					"Delete category": true
+				}
+			]
+		},
+		{
+			"id": "a477a898-f3e6-4597-be63-0c5bc7be690b",
+			"name": "listAll Copy",
+			"url": "http://localhost:8080/products",
+			"time": 23,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Get all products": true,
+				"Status code is 200": true,
+				"Get id from object 1": true,
+				"Get name from object 1": true,
+				"Get description from object 1": true,
+				"Get category id from object 1": true,
+				"Get category title from object 1": true,
+				"Get category description from object 1": true,
+				"Get category urlImage from object 1": true,
+				"Get city from object 1": true,
+				"Get latitude from object 1": true,
+				"Get longitude from object 1": true,
+				"Get id from object 2": true
+			},
+			"testPassFailCounts": {
+				"Get all products": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get id from object 1": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get name from object 1": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get description from object 1": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get category id from object 1": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get category title from object 1": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get category description from object 1": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get category urlImage from object 1": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get city from object 1": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get latitude from object 1": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get longitude from object 1": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get id from object 2": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				23
+			],
+			"allTests": [
+				{
+					"Get all products": true,
+					"Status code is 200": true,
+					"Get id from object 1": true,
+					"Get name from object 1": true,
+					"Get description from object 1": true,
+					"Get category id from object 1": true,
+					"Get category title from object 1": true,
+					"Get category description from object 1": true,
+					"Get category urlImage from object 1": true,
+					"Get city from object 1": true,
+					"Get latitude from object 1": true,
+					"Get longitude from object 1": true,
+					"Get id from object 2": true
+				}
+			]
+		},
+		{
+			"id": "eff68a56-98d7-4be1-8060-f2359d5fdabd",
+			"name": "listById Copy",
+			"url": "http://localhost:8080/products/search/1",
+			"time": 10,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Coindicencia de id": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Coindicencia de id": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				10
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Coindicencia de id": true
+				}
+			]
+		},
+		{
+			"id": "3dce97c3-23f0-4f0c-8af5-53b0770f375f",
+			"name": "FilterByCiudad Copy",
+			"url": "http://localhost:8080/products/filter?city={{city}}",
+			"time": 3,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "bbb0de7c-2c8a-4546-8e9e-31ea688d9c2a",
+			"name": "listImages Copy",
+			"url": "http://localhost:8080/image",
+			"time": 9,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Get all images": true,
+				"Status code is 200": true,
+				"Get id from object 1": true
+			},
+			"testPassFailCounts": {
+				"Get all images": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Get id from object 1": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				9
+			],
+			"allTests": [
+				{
+					"Get all images": true,
+					"Status code is 200": true,
+					"Get id from object 1": true
+				}
+			]
+		},
+		{
+			"id": "0e77cc40-940b-4050-b27e-c0cbfc016c03",
+			"name": "add Copy",
+			"url": "http://localhost:8080/users/add",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Usuario agregado correctamente": true
+			},
+			"testPassFailCounts": {
+				"Usuario agregado correctamente": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Usuario agregado correctamente": true
+				}
+			]
+		},
+		{
+			"id": "f3a39bbb-d288-4f75-ba29-9965f347ef0e",
+			"name": "searchByMail Copy",
+			"url": "http://localhost:8080/users/searchByMail/tutituteish@mail.com",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Buscar por mail": true
+			},
+			"testPassFailCounts": {
+				"Buscar por mail": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Buscar por mail": true
+				}
+			]
+		},
+		{
+			"id": "33ae5c9e-928f-4851-851a-c3d9bae91a16",
+			"name": "Login Copy",
+			"url": "http://localhost:8080/users/login",
+			"time": 65,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				65
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "da9715dd-4e6e-4fdb-aad4-24ac4c61a496",
+			"name": "list Copy",
+			"url": "http://localhost:8080/booking",
+			"time": 3,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {
+				"Status code is forbidden": true
+			},
+			"testPassFailCounts": {
+				"Status code is forbidden": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3
+			],
+			"allTests": [
+				{
+					"Status code is forbidden": true
+				}
+			]
+		},
+		{
+			"id": "c0112120-bda6-4f94-b2ff-d606055ea16c",
+			"name": "filterByDateAndCity Copy",
+			"url": "http://localhost:8080/booking/searchByDateAndCity?initialDate=2021-10-01&endDate=2021-10-05&city=Cartagena",
+			"time": 5,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {
+				"Status code is forbidden": true
+			},
+			"testPassFailCounts": {
+				"Status code is forbidden": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Status code is forbidden": true
+				}
+			]
+		},
+		{
+			"id": "ea5dc563-3050-4c75-bb41-b01b08dacbc7",
+			"name": "filterByDate Copy",
+			"url": "http://localhost:8080/booking/filterByDate?initialDate=2021-10-01&endDate=2021-10-05",
+			"time": 5,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {
+				"Status code is forbidden": true
+			},
+			"testPassFailCounts": {
+				"Status code is forbidden": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Status code is forbidden": true
+				}
+			]
+		},
+		{
+			"id": "133cab45-854a-4cf0-a6a9-eaa449538b59",
+			"name": "getBookingsByEmail",
+			"url": "http://localhost:8080/booking/search/user/delmontesantiago@gmail.com",
+			"time": 4,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {
+				"Status code is forbidden": true
+			},
+			"testPassFailCounts": {
+				"Status code is forbidden": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Status code is forbidden": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 196,
+	"collection": {
+		"requests": [
+			{
+				"id": "47550e30-2025-4710-93b9-077057ec5dfc",
+				"method": "GET"
+			},
+			{
+				"id": "3272e91d-3c0c-4f62-89e6-aac0c5220d78",
+				"method": "POST"
+			},
+			{
+				"id": "d7f45439-dcdf-4ecd-b8d3-3650b2e67bd8",
+				"method": "POST"
+			},
+			{
+				"id": "69326a92-be5a-4c6d-bf4f-d50c011fc1ef",
+				"method": "PUT"
+			},
+			{
+				"id": "f9d150d8-6af4-453f-8f34-4e303d990e08",
+				"method": "GET"
+			},
+			{
+				"id": "7921bec4-dfee-4ba8-b337-d4f5029fd10f",
+				"method": "DELETE"
+			},
+			{
+				"id": "a477a898-f3e6-4597-be63-0c5bc7be690b",
+				"method": "GET"
+			},
+			{
+				"id": "eff68a56-98d7-4be1-8060-f2359d5fdabd",
+				"method": "GET"
+			},
+			{
+				"id": "3dce97c3-23f0-4f0c-8af5-53b0770f375f",
+				"method": "GET"
+			},
+			{
+				"id": "bbb0de7c-2c8a-4546-8e9e-31ea688d9c2a",
+				"method": "GET"
+			},
+			{
+				"id": "0e77cc40-940b-4050-b27e-c0cbfc016c03",
+				"method": "POST"
+			},
+			{
+				"id": "f3a39bbb-d288-4f75-ba29-9965f347ef0e",
+				"method": "GET"
+			},
+			{
+				"id": "33ae5c9e-928f-4851-851a-c3d9bae91a16",
+				"method": "POST"
+			},
+			{
+				"id": "da9715dd-4e6e-4fdb-aad4-24ac4c61a496",
+				"method": "GET"
+			},
+			{
+				"id": "c0112120-bda6-4f94-b2ff-d606055ea16c",
+				"method": "GET"
+			},
+			{
+				"id": "ea5dc563-3050-4c75-bb41-b01b08dacbc7",
+				"method": "GET"
+			},
+			{
+				"id": "133cab45-854a-4cf0-a6a9-eaa449538b59",
+				"method": "GET"
+			}
+		]
+	}
+}

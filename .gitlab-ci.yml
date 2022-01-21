@@ -1,0 +1,67 @@
+build-1:
+  stage: build
+  image: node:14.16.0
+  script:
+    - cd frontend/booking
+    - npm install
+    - npm run build
+  artifacts:
+    paths:
+      - frontend/booking/build
+
+
+build-2:
+  stage: build
+  image: maven
+  script:
+    - cd backend/BookingDigital
+    - echo "Building app..."
+    - mvn clean install package
+    - echo "Finished building the backend app."
+  artifacts:
+    paths:
+      - backend/BookingDigital/target/*.jar
+  only:
+    - backend
+
+
+frontend deploy:
+  stage: deploy
+  image: 
+    name: alpine
+  before_script:
+    - apk update && apk add openssh-client bash
+    - mkdir -p ~/.ssh
+    - eval $(ssh-agent -s)
+    - touch ~/.ssh/config
+    - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
+    - ssh-keyscan -H 18.231.168.228 >> ~/.ssh/known_hosts
+    - chmod 700 infra/testKey.pem
+  script:
+    - echo "Deploying started..."
+    - pwd
+    - ls
+    - scp -r -o StrictHostKeyChecking=no -i infra/testKey.pem ./frontend/booking/build/* ubuntu@18.231.168.228:/var/www/html/
+    - echo "Finished deploying the frontend app."
+
+
+backend deploy:
+  stage: deploy
+  image:
+    name: alpine
+  before_script:
+    - apk update && apk add openssh-client bash
+    - mkdir -p ~/.ssh
+    - eval $(ssh-agent -s)
+    - touch ~/.ssh/config
+    - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
+    - ssh-keyscan -H 18.231.168.228 >> ~/.ssh/known_hosts
+    - chmod 700 infra/testKey.pem
+  script:
+    - echo "Deploying started..."
+    - ssh -o StrictHostKeyChecking=no ubuntu@15.228.13.234 "sudo systemctl stop consoleapp.service"
+    - scp -o StrictHostKeyChecking=no backend/BookingDigital/target/*.jar ubuntu@15.228.13.234:~/digitalbooking
+    - ssh -o StrictHostKeyChecking=no ubuntu@15.228.13.234 "sudo systemctl start consoleapp.service"
+    - echo "Finished deploying the backend app."
+  only:
+    - backend

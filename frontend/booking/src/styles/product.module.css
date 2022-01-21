@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&family=Roboto:wght@500;700&display=swap');
+
+.product {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffff;
+    background-color: #607D8B;
+    padding: 1% 2%;
+}
+
+.faChevronLeft{
+    font-size: 30px;
+    color: white;
+}
+
+.faChevronLeft :hover{
+    color: #FBC02D;
+}
+
+.category{
+    font-family: "Quicksand";
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.product h1{
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.subInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    color: #383B58;
+    padding: 1% 2%;
+}
+
+.location{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.rating{
+    display: flex;
+    flex-direction: row;
+}
+
+.score{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    /* height: 6vh; */
+    background-color: #FBC02D;
+    margin: 0px 10px;
+    border-radius: 23%;
+    color: white;
+    font-size: 22px;
+}
+
+.icons {
+    display: flex;
+    gap: 25px;
+    font-size: 25px;
+    padding: 1% 2%;
+    color: #607D8B;
+}
+
+.images{
+  position: relative;
+  display: flex;
+  padding: 0 2%;
+}
+
+.mainImage{
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.mainImage img {
+  border-radius: 0.5rem;
+  width: 98%;
+  height: 63.5vh;
+}
+
+.otherImages{
+  display: grid;
+  grid-template-columns: 49.5% 49.5%;
+  width: 100%;
+  gap: 1% 0;
+}
+
+.secondaryImgContainer {
+  object-fit: cover;
+  width: 100%;
+}
+
+.imgGalleryDesktop{
+  border-radius: 0.5rem;
+  width: 98%;
+  object-fit: cover;
+  height: 31vh;
+}
+
+.galleryActive {
+  z-index: 5;
+  background-color: rgba(19, 18, 17, 0.7);
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: -40px;
+}
+
+.galleryHidden {
+display: none;
+}
+
+.seeMore { 
+  position: absolute;
+  top: 89.5%;
+  right: 4%;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: underline 0.2px;
+  background-color: transparent;
+  border: transparent;
+}
+
+.close{
+  font-size: 1.5rem;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  right: 26vw;
+  top: 15vh;
+  z-index: 5000;
+  cursor: pointer
+}
+
+.text{
+    color: #383B58;
+    padding: 0 2%;
+    width: 100%;
+}
+
+.text h2{
+    font-size: 24px;
+    font-weight: 700;
+    padding: 1.75% 0%;
+}
+
+.text p{
+    padding: 1% 0%;
+}
+
+.text hr{
+    border: 0.5px solid #FBC02D;
+}
+
+.date{
+    background-color: #e4e4e4;
+    color: #383B58;
+    padding: 1% 2%;
+}
+
+.datePicker{
+    display: flex;
+    flex: row;
+    justify-content: space-around;
+    
+}
+
+.calendarDesktop{
+  pointer-events: none;
+}
+
+.calendar{
+  width: 100%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.booking{
+    background-color: #ffff;
+    padding: 14px 10px 10px 10px;
+    text-align: center;
+    height: 120px;
+    width: 400px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 5px;
+    margin-top: 100px;
+    font-weight: 700;
+}
+
+.booking p {
+  text-align: left;
+}
+
+.buttonBooking{
+  width: 100%;
+  height: 40px;
+  color: #ffff;
+  font-size: 16px;
+  background: #FBC02D;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  border: none;
+  margin-top: 3%;
+  cursor: pointer;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 1%;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+
+.infoBlock{
+    width: 21vw;
+}
+
+.info li{
+  padding: 8px 0px;
+  font-size: 0.9rem;
+}
+
+.features {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 1%;
+}
+
+.feature {
+  width: 25%;
+  padding: 20px 0px;
+  font-size: 14px;
+}
+
+.calendarResponsive{
+  display: none;
+}
+
+
+/*RESPONSIVE TABLET*/
+@media screen and (min-width:551px) and (max-width: 1023px){
+  .Search {
+    min-width: 120px;
+    max-height: 150px;
+  }
+  .Search h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .Search h3 {
+    font-size: 15px;
+    margin-bottom: 15px;
+    line-height: 15px;
+    font-weight: lighter;
+  }
+
+  .inputSearch {
+    width: 90%;
+ 
+  }
+  .ButtonSearch{
+    width: 20%;
+    
+  }
+
+.images{
+  display: none;
+}
+
+.datePicker{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.calendar{
+  width: 100%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.booking{
+  width: 550px;
+  margin: 1% 10%;
+  height: 70px;
+}
+
+.booking div{
+    display: flex;
+    flex-direction: row;
+   
+    text-align: center;
+    height: 120px;
+    width: 100%;
+    border: none;
+    font-weight: 700;
+}
+
+.booking{
+  margin-top: 10px;
+  margin-bottom: 0;
+  visibility: hidden; 
+}
+
+.booking p {
+  text-align: left;
+  visibility: visible;
+}
+
+.buttonBooking {
+  background-color: #FBC02D;
+  width: 350px;
+  visibility: visible;
+  margin-top: 0;
+}
+
+
+} 
+
+/*RESPONSIVE MOBILE*/
+@media screen and (max-width: 550px)  {
+  .Search {
+    height: 240px;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .images{
+    display: none;
+  }
+
+  .close {
+    font-size: 20px;
+    color: #FBC02D;
+    right: 1%;
+    top: 10%;
+    margin: 150px 30px;
+  }
+
+  .Search h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+ 
+  }
+
+  .Search h3 {
+    display: none;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 1px; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  } 
+
+  .inputSearch {
+    width: 254px;
+    margin-bottom: 5%;
+  }
+
+  .ButtonSearch{
+    width: 254px;
+    margin-top: 3%;
+    margin-left: 0px;
+  }
+
+/*   .calendarDesktop {
+    display: none;
+  } */
+
+  .calendarResponsive{
+    display: contents;
+  }
+
+  .datePicker{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ .booking{
+   margin-top: 1px;
+   margin-bottom: 10px;
+   visibility: hidden; 
+   width: 100%;
+   /* height: 100px; */
+ }
+ .booking p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  visibility: visible;
+}
+
+.booking .buttonBooking {
+  margin-top: 1px;
+  margin-bottom: 10px;
+  visibility: visible;
+}
+  
+
+} 
