@@ -60,3 +60,11 @@ Trabajamos desde AWS creando tanto los recursos como la base datos, las instanci
 El testing fue una herramienta clave durante el proyecto, nos permitió afirmar cada uno de nuestros pasos en cada sprint, nos comprometimos en hacer test sólidos que generan confianza en nuestro código, aunque sabemos que la prueba exhaustiva no existe al igual que la ausencia de errores.
 
 Link del informe final: [Reporte final de Testing](https://docs.google.com/document/d/1Fip6v_XywmPBOfBlESq56cVm5_TOIut8oB4qF7pySqY/edit?usp=sharing)
+
+Elaborado por:
+- [Alexa Aguirre](https://www.linkedin.com/in/aguirre-alexa/)
+- [Ema Calvo Frias](https://www.linkedin.com/in/ema-soledad/)
+- [Jimmy Donoso](https://www.linkedin.com/in/jimmy-donoso/)
+- [Luis Miguel Chavez](https://www.linkedin.com/in/luischdu/)
+- [Oliverio Mourier](https://www.linkedin.com/in/oliveriomourier/)
+- [Santiago Delmonte](https://www.linkedin.com/in/santiagodelmonte/)
